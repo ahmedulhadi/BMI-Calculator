@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="bmi.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div id="layer_1">
+        <h1>BMI calculator</h1>
+        <div id="layer_2"></div>
+        <form>
+            <h5 style="color: black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to SHARIF BMI Calculator</h5>
+            <div class="layer_3">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp
+                Enter your height in Inches and weight in Pounds.</p>
+              
+                <div class="layer_4">
+
+                    <h6>Enter Your hieght in Inches:&nbsp;&nbsp;
+                        <input type="number" id="height1" min="1" max="9" placeholder="feet">
+                        <input type="number" id="height2" min="1" max="99" placeholder="inches"></h6>
+                    </p>
+
+                    <h6>Enter Your weight in Pounds:
+                        <input type="number" id="weight" min="1" max="999" placeholder="lbs"></p>
+                    </h6>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+                    <button type="button" id="calculateBtn" class="btn btn-primary">CALCULATE</button>
+                    <br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;<H6 id="normal_alert" class="display">RESULT:</H6>
+
+                    <!-- <div id="alert" role="alert" style="display: block;">
+                        A simple success alert—check it out!
+                      </div> -->
+
+                    <img id="index" src="images/bmi-chart.jpg" alt="">
+                </div>
+            </div>
+        </form>
+        <script src="bmi.js"></script>
+        <br>
+    <div>
+        
+        
+</body>
+
+</html>
