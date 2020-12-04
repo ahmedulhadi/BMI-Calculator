@@ -1,6 +1,8 @@
 # BMI-Calculator
 For published completed App click: http://bmicalculator.c1.biz/
 
+Used Javascript and CSS for design.
+
 Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.
 
 For your height, a normal weight range would be from 125 to 169 pounds.
